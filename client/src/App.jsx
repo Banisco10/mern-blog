@@ -21,6 +21,7 @@ export default function App() {
       <Route element={<PrivateRoute />}>
       <Route path="/dashboard" element={<Dashboard /> } />
       </Route>
+      
       <Route path="/projects" element={<Projects />} />
      </Routes>
      <Footer />
